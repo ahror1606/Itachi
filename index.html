@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+	<h1>Travel reservation form</h1>
+	<h3>* denotes mandotory</h3>
+<form>
+		<label for="fname">Full Name*:</label>
+		<br><input id="fname" placeholder="FirstName LastName" required="required">
+		<br><label for="emails">Email address*:</label>
+		<br><input type="email" id="emails" placeholder="EMAIL_ADDRESS">
+		<br><label for="package">Select Tour Package*:</label>
+		<br><select name="" id="package">
+			<option value="Goa">Goa</option>
+			<option value="Panadji">Panadji</option>
+			<option value="Baga">Baga</option>
+		</select>
+
+		<br><label for="date">Arrival date*:</label>
+		<br><input type="date" id="date">
+
+		<br><label for="number">Number of persons*:</label>
+		<br><input type="number" id="number" placeholder="UNKNOWN_TYPE">
+
+		<br><label for="avail">What would you want to avail?*</label>
+		<br>Boarding<input type="checkbox" id="avail" value="Boarding">
+		<br>Fooding<input type="checkbox" id="avail" value="Fooding">
+		<br>Sight seeing<input type="checkbox" id="avail" value="Sight seeing">
+
+		<br><label for="code">Discount Coupon code:</label>
+		<br><input id="code" placeholder="UNKNOWN_TYPE">
+
+<br>
+		<input type="radio" name="agreement" value="agree">
+ 		<label for="agreement">I agree</label>
+  		<input type="radio" name="agreement" value="disagree">
+  		<label for="agreement">I disagree</label>
+
+  		<br><label for="Complete reservation"></label>
+  		<br><input type="submit" id="Complete reservation">
+  	</form>
+</body>
+</html>
